@@ -11,6 +11,6 @@ public:
     void draw();
     void onClick(std::function<void()> callback);
     // ... other methods for handling events, etc.
-};
+};§
 
 #endif //MY_PHONE_OS_BUTTON_H
