@@ -6,8 +6,9 @@
 #define MY_PHONE_OS_MYAPP_H
 
 
-class myapp {
-
+class MyApp {
+public:
+    MyApp();
 };
 
 
