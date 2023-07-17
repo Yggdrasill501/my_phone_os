@@ -7,7 +7,24 @@
 
 
 class Kernel {
+public:
+    // constructor
+    Kernel() {
+        // Initialization code here
+    }
 
+    // main function that starts the kernel
+    void start() {
+        // Initialization code here...
+
+        // Endless loop to prevent kernel from returning (which would be an error)
+        while (true) { /* ... */ }
+    }
+
+    // You might have other methods for handling interrupts, system calls, etc.
+    void handleInterrupt(/* ... */) {
+        // Handle the interrupt
+    }
 };
 
 
