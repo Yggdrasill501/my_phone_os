@@ -9,6 +9,10 @@
 class MyApp {
 public:
     MyApp();
+    void buttonClicked();
+private:
+    Button button;
+
 };
 
 
