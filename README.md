@@ -8,4 +8,7 @@ I am using old android phone Samsung galaxy J4+
 - 32 GB of internal storage
 ### Sources
 - [Phone](https://en.wikipedia.org/wiki/Samsung_Galaxy_J4+)
-- [Samsung web](https://www.samsung.com/levant/business/smartphones/others/galaxy-j4plus-j415-sm-j415fzdfmid/) 
+- [Samsung web](https://www.samsung.com/levant/business/smartphones/others/galaxy-j4plus-j415-sm-j415fzdfmid/)
+
+### How to buil os
+- [create os](https://samypesse.gitbook.io/how-to-create-an-operating-system/)
