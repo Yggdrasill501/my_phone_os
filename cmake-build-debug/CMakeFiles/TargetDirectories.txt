@@ -1,0 +1,3 @@
+/Users/yggdrasill501/Documents/my_phone_os/cmake-build-debug/CMakeFiles/my_phone_os.dir
+/Users/yggdrasill501/Documents/my_phone_os/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yggdrasill501/Documents/my_phone_os/cmake-build-debug/CMakeFiles/rebuild_cache.dir
