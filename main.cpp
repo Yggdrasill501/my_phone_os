@@ -5,8 +5,7 @@
 #include "touchscreendriver.h"
 #include "window.h"
 #include "button.h"
-#include "windowmanager.h"
-
+#include "myapp.cpp"
 
 
 int main() {
