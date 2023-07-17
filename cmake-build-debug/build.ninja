@@ -61,6 +61,12 @@ build CMakeFiles/my_phone_os.dir/touchscreendriver.cpp.o: CXX_COMPILER__my_phone
   OBJECT_DIR = CMakeFiles/my_phone_os.dir
   OBJECT_FILE_DIR = CMakeFiles/my_phone_os.dir
 
+build CMakeFiles/my_phone_os.dir/kernel.cpp.o: CXX_COMPILER__my_phone_os_Debug /Users/yggdrasill501/Documents/my_phone_os/kernel.cpp || cmake_object_order_depends_target_my_phone_os
+  DEP_FILE = CMakeFiles/my_phone_os.dir/kernel.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/my_phone_os.dir
+  OBJECT_FILE_DIR = CMakeFiles/my_phone_os.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target my_phone_os
@@ -69,7 +75,7 @@ build CMakeFiles/my_phone_os.dir/touchscreendriver.cpp.o: CXX_COMPILER__my_phone
 #############################################
 # Link the executable my_phone_os
 
-build my_phone_os: CXX_EXECUTABLE_LINKER__my_phone_os_Debug CMakeFiles/my_phone_os.dir/main.cpp.o CMakeFiles/my_phone_os.dir/touchscreendriver.cpp.o
+build my_phone_os: CXX_EXECUTABLE_LINKER__my_phone_os_Debug CMakeFiles/my_phone_os.dir/main.cpp.o CMakeFiles/my_phone_os.dir/touchscreendriver.cpp.o CMakeFiles/my_phone_os.dir/kernel.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk
   OBJECT_DIR = CMakeFiles/my_phone_os.dir
   POST_BUILD = :
